@@ -33,8 +33,6 @@ import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import com.google.common.util.concurrent.ListenableFuture;
-import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.StorageReference;
 import com.google.gson.annotations.SerializedName;
 
 import java.io.ByteArrayOutputStream;
@@ -69,8 +67,6 @@ public class MainActivity extends AppCompatActivity {
     private static final String[] REQUIRED_PERMISSIONS = {Manifest.permission.CAMERA, Manifest.permission.WRITE_EXTERNAL_STORAGE};
     private static final int REQUEST_ENABLE_BT = 1;
     private static final java.util.UUID UUID = java.util.UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
-    private FirebaseStorage storage = FirebaseStorage.getInstance();
-    private StorageReference storageRef = storage.getReference().child("storage/images");
     private PreviewView previewView;
     private ListenableFuture<ProcessCameraProvider> cameraProviderFuture;
     private Executor executor = Executors.newSingleThreadExecutor();
@@ -523,7 +519,7 @@ public class MainActivity extends AppCompatActivity {
     public class RetrofitClient {
         private static Retrofit retrofit;
         private static final String BASE_URL = "http://65.20.84.196:8000/";
-        private static final String API_KEY = "chipmunksButBlack!2";
+        private static final String API_KEY = "CONTACT-US-FOR-API-KEY";
 
         public static Retrofit getClient() {
             if (retrofit == null) {
