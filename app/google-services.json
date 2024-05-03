@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "798821660675",
+    "firebase_url": "https://ai-stuff-vehicles-default-rtdb.firebaseio.com",
+    "project_id": "ai-stuff-vehicles",
+    "storage_bucket": "ai-stuff-vehicles.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798821660675:android:f4d4cd18bc8760fb403636",
+        "android_client_info": {
+          "package_name": "com.example.find_my_wheels"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAx1m5wnwh_I_33Omt9EiCepeXP6tnJlGU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
